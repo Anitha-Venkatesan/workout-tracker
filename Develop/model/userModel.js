@@ -8,6 +8,7 @@ const UserSchema = new Schema({
       required: true, 
       default: Date.now 
   },
+  exercise: [{
   type: {
     type: String,
     trim: true,
@@ -34,7 +35,7 @@ const UserSchema = new Schema({
     type: Number,
     trim: true
   },
-  
+
   reps: {
     type: Number,
     trim: true
@@ -44,6 +45,7 @@ const UserSchema = new Schema({
     type: Number,
     trim: true,
   } 
+  }]
 });
 
 const User = mongoose.model("User", UserSchema);
