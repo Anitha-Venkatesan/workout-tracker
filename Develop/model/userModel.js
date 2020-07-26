@@ -33,13 +33,8 @@ const UserSchema = new Schema({
   distance: {
     type: Number,
     trim: true
-    
   },
-  distance: {
-    type: Number,
-    trim: true
-    
-  },
+  
   reps: {
     type: Number,
     trim: true
