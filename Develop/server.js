@@ -33,21 +33,27 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { u
       })
       .catch(err => {
         res.json(err);
-      });
+    });
   });
-  
-   app.post("/api/workouts", ({ body }, res) => {
+
+  app.post("/api/workouts", ({ body }, res) => {
     const user = new User(body);
         User.create(user)
             .then(dbUser => {
             res.json(dbUser);
-          })
+        })
           .catch(err => {
             res.json(err);
           });
-    }); 
-
-  
+  }); 
+  app.put("/api/workouts/:id",function(req,res) {
+      console.log(req.body);
+      console.log(req.params.id);
+      User.findByIdAndUpdate(req.params.id,{ $push: { exercise: req.body } }, function(err, post) {
+        if (err) return next(err);
+        res.json(post);
+       });
+  });    
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
