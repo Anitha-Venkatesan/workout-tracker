@@ -26,8 +26,8 @@ Note: They already included in npm package.json
 * `cd workout-tracker`
 * Open server.js in Command Line Terminal using the command `node server.js`
 ### Screenshots
-![Demo](screenshots/workout.gif)
-![Demo](screenshots/stats.gif)
+![Demo](Develop/screenshots/workout.gif)
+![Demo](Develop/screenshots/stats.gif)
 
 ### Heroku Deployed URL
 * [Demo]()
@@ -41,5 +41,6 @@ Note: They already included in npm package.json
 ### Questions
 If you have any questions, Please feel free to contact me Anitha Venkatesan on my email anithamca68@gmail.com
 
-You can also create issues on my repo.
+You can also create [issues](https://github.com/Anitha-Venkatesan/workout-tracker/issues) on my repo.
+
 
