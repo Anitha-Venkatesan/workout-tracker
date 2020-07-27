@@ -8,7 +8,7 @@ const UserSchema = new Schema({
       required: true, 
       default: Date.now 
   },
-  exercise: [{
+  exercises: [{
   type: {
     type: String,
     trim: true,
