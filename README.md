@@ -12,7 +12,7 @@ A Workout tracker used to track and create the daily workouts using Node JS, Exp
 
 ### Database
 * workoutdb has a collection named 'users'
-![Demo](Develop/screenshots/database.png)
+![Demo](screenshots/database.png)
 
 ### Installation
 Steps to install the node npm packages
