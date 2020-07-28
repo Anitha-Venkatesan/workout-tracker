@@ -28,8 +28,8 @@ Note: They already included in npm package.json
 * `cd workout-tracker`
 * Open server.js in Command Line Terminal using the command `node server.js`
 ### Screenshots
-![Demo](Develop/screenshots/workout.gif)
-![Demo](Develop/screenshots/stats.gif)
+![Demo](screenshots/workout.gif)
+![Demo](screenshots/stats.gif)
 
 ### Heroku Deployed URL
 * [Demo](https://safe-mountain-59249.herokuapp.com/?id=5f2034bfdb07f10017608a24)
