@@ -22,6 +22,7 @@ Steps to install the node npm packages
 * express
 * mongoose
 * morgan
+
 Note: They already included in npm package.json
 ### Usage
 * `git clone git@github.com:Anitha-Venkatesan/workout-tracker.git`
