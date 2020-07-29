@@ -33,7 +33,7 @@ Note: They already included in npm package.json
 ![Demo](screenshots/stats.gif)
 
 ### Heroku Deployed URL
-* [Demo](https://safe-mountain-59249.herokuapp.com/?id=5f2034bfdb07f10017608a24)
+* [Demo](https://safe-mountain-59249.herokuapp.com/)
 
 ### License
 * This program is licensed under the MIT license.
